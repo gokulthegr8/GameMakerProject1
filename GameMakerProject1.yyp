@@ -6,6 +6,8 @@
     {"id":{"name":"spr_running","path":"sprites/spr_running/spr_running.yy",},"order":1,},
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_tileCollision","path":"sprites/spr_tileCollision/spr_tileCollision.yy",},"order":3,},
+    {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
