@@ -1,13 +1,11 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 1C168C06
-/// @DnDArgument : "code" "defaultImageSpeed = image_speed;$(13_10)$(13_10)xSpeed = 0;$(13_10)ySpeed = 0;$(13_10)acceleration = 1;$(13_10)$(13_10)attackMove = true;$(13_10)$(13_10)follow = 0;"
 defaultImageSpeed = image_speed;
+image_index = random_range(0,image_number);
 
 xSpeed = 0;
 ySpeed = 0;
 acceleration = 1;
 
+attack = false;
 attackMove = true;
 
 follow = 0;
