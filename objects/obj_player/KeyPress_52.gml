@@ -1,0 +1,1 @@
+remove_arr(3)
