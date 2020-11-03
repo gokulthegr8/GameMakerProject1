@@ -52,3 +52,4 @@ global.inventory[3,2] =spr_dagger;
 global.inventory[3,3] =1;
 global.inventory[3,4] =0;
 global.inventory[3,5] = "";
+window_set_fullscreen(true)
