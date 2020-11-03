@@ -63,6 +63,7 @@ if(sign(hsp) != sign(hmove) && hsp != 0){
 if(vsp > FallSpeed){vsp = FallSpeed*(sign(vsp))}
 if(abs(hsp) > wlksp){hsp = wlksp*(sign(hsp))}
 
+
 //Cant pass by ref so "colideMove" returns both speeds
 arrSpeeds = collideMove(id,vsp,hsp);
 vsp = arrSpeeds[0];
