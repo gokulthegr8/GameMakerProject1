@@ -5,3 +5,6 @@ if(instance_exists(obj_player)){
 		speed=hsp
 	}
 }
+if(Health <= 0){
+	instance_destroy();
+}

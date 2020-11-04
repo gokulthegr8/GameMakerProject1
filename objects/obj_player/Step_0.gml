@@ -5,8 +5,6 @@ key_down = keyboard_check(ord("S"));
 key_space = keyboard_check(vk_space);
 var hmove = key_right - key_left;
 
-//Changes sprite state
-if(sprite_unchanged ==0){
 
 //Changes sprite state
 activeSprite = sign(hmove) * (hmove != 0);
@@ -23,26 +21,7 @@ switch(activeSprite){
 			image_xscale = -1;
 		break;
 }
-}
 
-if(sprite_unchanged ==1){
-
-//Changes sprite state
-activeSprite = sign(hmove) * (hmove != 0);
-switch(activeSprite){
-	case 0:
-			sprite_index = spr_running;
-		break;
-	case 1:
-			sprite_index = spr_standing;
-			image_xscale = 1;
-		break;
-	case -1:
-			sprite_index = spr_standing;
-			image_xscale = -1;
-		break;
-}
-}
 
 //Gravity and Jump
 onGround = grounded(id);

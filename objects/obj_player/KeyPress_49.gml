@@ -1,4 +1,6 @@
+selectedItem = 0;
 
+/*
 switch(global.slot[0])
 {
 case spr_potion: health = health + 50;

@@ -1,0 +1,1 @@
+if(!OnGround){instance_destroy();}
