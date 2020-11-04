@@ -43,3 +43,6 @@ if(attack){
 		}
 		attack = !onGround;
 }
+if(Health <= 0){
+		instance_destroy()
+}
