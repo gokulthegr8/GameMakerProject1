@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_enemyBlocker",
-    "path": "sprites/spr_enemyBlocker/spr_enemyBlocker.yy",
+    "name": "spr_death",
+    "path": "sprites/spr_death/spr_death.yy",
   },
-  "solid": false,
-  "visible": true,
+  "solid": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemyBlocker",
+  "name": "obj_death",
   "tags": [],
   "resourceType": "GMObject",
 }
