@@ -47,3 +47,12 @@ if(abs(hsp) > wlksp){hsp = wlksp*(sign(hsp))}
 arrSpeeds = collideMove(id,vsp,hsp);
 vsp = arrSpeeds[0];
 hsp = arrSpeeds[1];
+
+if(was_hit){
+	hit_timer +=1;
+	if(hit_timer>hit_release){
+	was_hit=false;
+	}
+} else {
+	hit_timer = 0;
+}

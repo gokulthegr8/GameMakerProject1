@@ -20,6 +20,7 @@
     {"id":{"name":"spr_heart_strip2","path":"sprites/spr_heart_strip2/spr_heart_strip2.yy",},"order":4,},
     {"id":{"name":"spr_inventory","path":"sprites/spr_inventory/spr_inventory.yy",},"order":11,},
     {"id":{"name":"s_onGround","path":"scripts/s_onGround/s_onGround.yy",},"order":1,},
+    {"id":{"name":"shader0","path":"shaders/shader0/shader0.yy",},"order":0,},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},"order":4,},
     {"id":{"name":"obj_hornet","path":"objects/obj_hornet/obj_hornet.yy",},"order":8,},
     {"id":{"name":"obj_hornetPatrol","path":"objects/obj_hornetPatrol/obj_hornetPatrol.yy",},"order":9,},

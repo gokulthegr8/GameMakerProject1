@@ -35,7 +35,10 @@ global.slot[2]=-1;
 global.slot[3]=-1;
 global.slot[4]=-1;
 
-global.gun_flag=false;
+was_hit =false;
+hit_timer= 0;
+hit_release= room_speed * 0.5;
+handle_timer = shader_get_uniform(shader0, "utimer");
 activeSprite = 0;
 vx = camera_get_view_x(view_camera[0]) + 1200;
 vy = camera_get_view_y(view_camera[0]) + 30;

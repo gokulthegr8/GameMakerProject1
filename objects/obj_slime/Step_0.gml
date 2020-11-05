@@ -39,6 +39,11 @@ xSpeed = speeds[1];
 if(attack){
 		if(place_meeting(x,y,obj_player)){
 			damagePlayer(AttackDamage);
+			with(obj_player){
+			if(was_hit == false){
+			was_hit =true;
+			}
+			}
 			attack = false;
 		}
 		attack = !onGround;
