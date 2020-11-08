@@ -3,6 +3,6 @@ for(i=0; i<=3; i+=1)
   {
   if global.slot[i]!= -1 then
     {
-    draw_sprite(object_get_sprite(global.slot[i]), 0, vx +15 + 47*i , vy + 20);
+    draw_sprite(object_get_sprite(global.slot[i]), 0, vx + 30 + (i * 40), vy + 30);
     }
   }
