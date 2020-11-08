@@ -5,6 +5,13 @@
 function damagePlayer(damage) 
 {
 	obj_UI.PlayerHealth -= damage;
+	
+	with(obj_player){
+		if(was_hit == false){
+		was_hit =true;
+		}
+	}
+	
 	if(obj_UI.PlayerHealth <= 0){
 		instance_destroy(obj_player);
 	}

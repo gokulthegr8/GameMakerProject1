@@ -7,7 +7,7 @@ var hmove = key_right - key_left;
 
 
 //Changes sprite state
-activeSprite = sign(hmove) * (hmove != 0);
+activeSprite = hmove * (hmove != 0);
 switch(activeSprite){
 	case 0:
 			sprite_index = spr_standing;
@@ -25,7 +25,12 @@ switch(activeSprite){
 
 //Gravity and Jump
 onGround = grounded(id);
-vsp = (!onGround * vsp); //<<if on ground set vsp to 0
+
+if(onGround && thrown && vsp>=0){
+	thrown = false;
+}
+
+vsp = (!(onGround && vsp>0) * vsp); //<<if on ground set vsp to 0
 vsp += (!grounded(id) * grv) + (-key_space * Jump* grounded(id) * (vsp >= 0));
 
 //Xspeed
@@ -34,7 +39,7 @@ if(sign(hsp) != sign(hmove) && hsp != 0){
 	if(sign(hsp + frcsp * sign(hsp) * -1 ) != sign(hsp)){
 		hsp = 0;
 	}else{
-		hsp += frcsp * sign(hsp) * -1;
+		hsp += (frcsp * !thrown) * sign(hsp) * -1;
 	}
 }
 
