@@ -14,7 +14,6 @@ function collideMove( entity,vsp, hsp)
 	_x = entity.x;
 	_y = entity.y;
 	
-	show_debug_message(vsp);
 	
 	if(hsp>0) bbox_side=box_right; else bbox_side=box_left;
 	if(tilemap_get_at_pixel(tilemap,bbox_side+hsp,box_top)!=0)||(tilemap_get_at_pixel(tilemap,bbox_side+hsp,box_bottom)!=0)

@@ -1,0 +1,1 @@
+shootAttack = true

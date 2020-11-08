@@ -27,6 +27,7 @@ if(attackMove && distanceToPlayer <= 10 and !random_range(0,AttackChance)){
 				 ((!follow && xSpeed != 0) * -(sign(xSpeed)*acceleration ));
 		
 		xSpeed += xmove * onGround;
+		xSpeed += xmove * onGround;
 }
 
 //Add grav if ySpeed < fallSpeed
@@ -39,11 +40,6 @@ xSpeed = speeds[1];
 if(attack){
 		if(place_meeting(x,y,obj_player)){
 			damagePlayer(AttackDamage);
-			with(obj_player){
-			if(was_hit == false){
-			was_hit =true;
-			}
-			}
 			attack = false;
 		}
 		attack = !onGround;

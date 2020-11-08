@@ -1,1 +1,2 @@
 hspeed=hsp
+collisionAttack = true
