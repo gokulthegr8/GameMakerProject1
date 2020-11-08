@@ -14,9 +14,20 @@ function collideMove( entity,vsp, hsp)
 	_x = entity.x;
 	_y = entity.y;
 	
+	//Vertical tile collision
 	
-	if(hsp>0) bbox_side=box_right; else bbox_side=box_left;
-	if(tilemap_get_at_pixel(tilemap,bbox_side+hsp,box_top)!=0)||(tilemap_get_at_pixel(tilemap,bbox_side+hsp,box_bottom)!=0)
+	hsp_move = 0;
+	if(hsp>0){ 
+		bbox_side=box_right;
+		hsp_move = ceil(hsp);
+	} else
+	{ 
+		bbox_side=box_left;
+		hsp_move = floor(hsp);
+	}
+	
+	//if(hsp>0) bbox_side=box_right; else bbox_side=box_left;
+	if(tilemap_get_at_pixel(tilemap,bbox_side+hsp_move,box_top)!=0)||(tilemap_get_at_pixel(tilemap,bbox_side+hsp_move,box_bottom)!=0)
 	{
 		if(hsp != 0){
 			if(hsp>0) entity.x=_x-(_x mod 32)+31-(box_right-_x);
@@ -35,12 +46,16 @@ function collideMove( entity,vsp, hsp)
 		bbox_side=box_top;
 		vsp_move = floor(vsp);
 	}
+
 	if(tilemap_get_at_pixel(tilemap,box_left,bbox_side+vsp_move)!=0)||(tilemap_get_at_pixel(tilemap,box_right,bbox_side+vsp_move)!=0)
 	{
 		if(vsp != 0){
 			if(vsp>0) {
 					//gravity=0;
 					entity.y=_y-(_y mod 32)+31-(box_bottom-_y);
+					if(entity.sprite_index == spr_TreeStanding){
+						show_debug_message("ASD")	
+					}
 			}
 			else{ entity.y=_y-(_y mod 32)-(box_top-_y);
 				}

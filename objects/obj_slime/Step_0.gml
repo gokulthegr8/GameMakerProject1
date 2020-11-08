@@ -27,7 +27,6 @@ if(attackMove && distanceToPlayer <= 10 and !random_range(0,AttackChance)){
 				 ((!follow && xSpeed != 0) * -(sign(xSpeed)*acceleration ));
 		
 		xSpeed += xmove * onGround;
-		xSpeed += xmove * onGround;
 }
 
 //Add grav if ySpeed < fallSpeed
