@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4c44a1b1-486e-4fd7-9e35-21521f1b337a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "TreeGuy",
-    "path": "folders/Sprites/Enemies/TreeGuy.yy",
+    "name": "Enemies",
+    "path": "folders/Sprites/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_TreeStanding",
