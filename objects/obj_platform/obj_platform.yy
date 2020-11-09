@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_finishStage",
-    "path": "sprites/spr_finishStage/spr_finishStage.yy",
+    "name": "spr_platform",
+    "path": "sprites/spr_platform/spr_platform.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_finishStage",
+  "name": "obj_platform",
   "tags": [],
   "resourceType": "GMObject",
 }
