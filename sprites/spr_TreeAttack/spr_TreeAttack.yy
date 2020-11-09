@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "TreeGuy",
-    "path": "folders/Sprites/Enemies/TreeGuy.yy",
+    "path": "folders/Sprites/TreeGuy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_TreeAttack",
