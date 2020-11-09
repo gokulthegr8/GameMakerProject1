@@ -6,5 +6,6 @@ global.inventory[1,4] =1;
 global.slot[global.loc]= obj_sword;
 global.loc +=1;
 instance_destroy(other);
+audio_play_sound(weapon_pickup,0,0)
 }
 }

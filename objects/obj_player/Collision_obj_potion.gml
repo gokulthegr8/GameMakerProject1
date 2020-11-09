@@ -1,10 +1,3 @@
-if( keyboard_check_pressed(ord("E"))) then 
-{
-if(global.loc<4){
-global.inventory[2,4] =1;
-//global.slot[global.loc]= spr_potion;
-global.slot[global.loc]= obj_potion;
-global.loc +=1;
-instance_destroy(other)
-}
-}
+if(obj_UI.PlayerHealth!=200)instance_destroy(other)
+obj_UI.PlayerHealth+=50
+if(obj_UI.PlayerHealth>200)obj_UI.PlayerHealth=200
