@@ -53,8 +53,7 @@ function collideMove( entity,vsp, hsp)
 			if(vsp>0) {
 					//gravity=0;
 					entity.y=_y-(_y mod 32)+31-(box_bottom-_y);
-					if(entity.sprite_index == spr_TreeStanding){
-						show_debug_message("ASD")	
+					if(entity.sprite_index == spr_TreeStanding){	
 					}
 			}
 			else{ entity.y=_y-(_y mod 32)-(box_top-_y);

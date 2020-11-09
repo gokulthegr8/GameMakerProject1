@@ -22,6 +22,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hornetPatrol","path":"objects/obj_hornetPatrol/obj_hornetPatrol.yy",},"parent":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"parent":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"parent":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"Damage","tags":[],"resourceType":"GMObjectProperty",},

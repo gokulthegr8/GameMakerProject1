@@ -26,12 +26,13 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_silaxe","path":"objects/obj_silaxe/obj_silaxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_silaxe","path":"objects/obj_silaxe/obj_silaxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_silaxe","path":"objects/obj_silaxe/obj_silaxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"Damage","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"NumEnemies","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"AttackDuration","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"AttackDuration","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "consumables",

@@ -1,5 +1,3 @@
-
-
 xSpeed = 0;
 ySpeed = 0;
 acceleration = .5;
