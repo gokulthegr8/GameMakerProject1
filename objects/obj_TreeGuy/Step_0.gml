@@ -23,7 +23,7 @@ if(!attack){
 	
 	//Move to the player
 	follow = ((distanceToPlayer < AgroRange && distanceToPlayer > Range) * (follow == 0)) + 
-			 ((distanceToPlayer > 5) * follow * (distanceToPlayer < AgroFalloff));
+			 ((distanceToPlayer > Range) * follow * (distanceToPlayer < AgroFalloff));
 
 	onGround = grounded(id);
 

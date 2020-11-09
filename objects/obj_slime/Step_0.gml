@@ -37,11 +37,11 @@ ySpeed = speeds[0];
 xSpeed = speeds[1];
 
 if(attack){
-		if(place_meeting(x,y,obj_player)){
-			damagePlayer(AttackDamage);
-			attack = false;
-		}
-		attack = !onGround;
+	attack = !onGround;
+	if(place_meeting(x,y,obj_player)){
+		damagePlayer(AttackDamage);
+		attack = false;
+	}
 }
 if(Health <= 0){
 		instance_destroy()
