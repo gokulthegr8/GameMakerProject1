@@ -50,6 +50,7 @@
     {"id":{"name":"spr_Hornet","path":"sprites/spr_Hornet/spr_Hornet.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":4,},
     {"id":{"name":"spr_rack_cave","path":"sprites/spr_rack_cave/spr_rack_cave.yy",},"order":17,},
+    {"id":{"name":"spr_bgi","path":"sprites/spr_bgi/spr_bgi.yy",},"order":23,},
     {"id":{"name":"spr_objCollision","path":"sprites/spr_objCollision/spr_objCollision.yy",},"order":12,},
     {"id":{"name":"obj_goldDagger","path":"objects/obj_goldDagger/obj_goldDagger.yy",},"order":5,},
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},"order":0,},
