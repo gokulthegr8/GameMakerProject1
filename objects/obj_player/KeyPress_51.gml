@@ -1,5 +1,5 @@
 selectedItem = 2;
-
+audio_play_sound(weapon_pickup,0,0)
 /*
 switch(global.slot[2])
 {

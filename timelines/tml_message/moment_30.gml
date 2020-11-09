@@ -1,0 +1,1 @@
+obj_control.msg1=true
