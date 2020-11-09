@@ -1,7 +1,8 @@
 options[0]="New Game"
 options[1]="Stage 2"
 options[2]="Stage 3"
-options[3]="Exit Game"
+options[3]="Stage 4"
+options[4]="Exit Game"
 
 space=64;
 

@@ -1,7 +1,6 @@
 if(instance_exists(obj_player)){
 	distanceToPlayer = abs(distance_to_object(obj_player));
 	xDirectionToPlayer = sign(obj_player.x - x);
-}
 
 if(!attack){
 	//Changes sprite state
@@ -52,4 +51,5 @@ xSpeed = speeds[1];
 
 if(Health <= 0){
 		instance_destroy()
+}
 }

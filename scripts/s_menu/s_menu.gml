@@ -22,6 +22,11 @@ switch(mpos){
 	}
 	case 3:
 	{
+		room_goto(stage4)
+		break;
+	}
+	case 4:
+	{
 		game_end()
 		break;	
 	}
