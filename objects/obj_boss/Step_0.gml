@@ -59,9 +59,13 @@ if(!attackBash && !attackSwing){
 //Add grav if ySpeed < fallSpeed
 ySpeed += (ySpeed < FallSpeed) * Gravity;
 
-speeds = collideMove(id,ySpeed,xSpeed);
-ySpeed = speeds[0];
-xSpeed = speeds[1];
+//speeds = collideMove(id,ySpeed,xSpeed);
+//ySpeed = speeds[0];
+//xSpeed = speeds[1];
+//y += ySpeed;
+x += xSpeed;
+
+
 
 
 if(Health <= 0){

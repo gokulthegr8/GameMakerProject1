@@ -43,7 +43,7 @@
     {"propertyId":{"name":"Damage","path":"objects/obj_enemie/obj_enemie.yy",},"objectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"Health","path":"objects/obj_enemie/obj_enemie.yy",},"objectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"AgroFalloff","path":"objects/obj_enemie/obj_enemie.yy",},"objectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"value":"150","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"AgroRange","path":"objects/obj_enemie/obj_enemie.yy",},"objectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"value":"60","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"AgroRange","path":"objects/obj_enemie/obj_enemie.yy",},"objectId":{"name":"obj_enemie","path":"objects/obj_enemie/obj_enemie.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",

@@ -2,7 +2,7 @@
 if(instance_exists(obj_player)){
 	distanceToPlayer = abs(distance_to_object(obj_player));
 	xDirectionToPlayer = sign(obj_player.x - x);
-}
+
 //yDirectionToPlayer = sign(obj_player.y - y);
 
 //If  5 < distanceToPlayer < AgroRange and follow is 0  follow = 1
@@ -45,4 +45,5 @@ if(attack){
 }
 if(Health <= 0){
 		instance_destroy()
+}
 }

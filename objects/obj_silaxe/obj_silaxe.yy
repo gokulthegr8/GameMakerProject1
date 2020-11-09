@@ -30,7 +30,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"Damage","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Damage","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"NumEnemies","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"AttackDuration","path":"objects/obj_wepon/obj_wepon.yy",},"objectId":{"name":"obj_wepon","path":"objects/obj_wepon/obj_wepon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
