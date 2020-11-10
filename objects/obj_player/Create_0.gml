@@ -72,7 +72,7 @@ global.inventory[3,3] =1;
 global.inventory[3,4] =0;
 global.inventory[3,5] = "";
 audio_play_sound(stage1_bgm,1,true)
-if(room=room_last){
+if(room=stage4){
 	audio_stop_sound(stage1_bgm)
 	audio_play_sound(stage2_bgm,1,true)
 }

@@ -1,2 +1,2 @@
-obj_control.msg1=false
-obj_control.msg2=true
+obj_timeline.msg1=false
+obj_timeline.msg2=true

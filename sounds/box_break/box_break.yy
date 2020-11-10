@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.3,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "stage2_bgm.mp3",
-  "duration": 27.4858322,
+  "soundFile": "box_break.mp3",
+  "duration": 0.396837,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "stage2_bgm",
+  "name": "box_break",
   "tags": [],
   "resourceType": "GMSound",
 }

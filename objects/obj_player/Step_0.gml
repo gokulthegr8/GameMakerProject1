@@ -28,7 +28,6 @@ onGround = grounded(id);
 if(onGround && thrown && vsp>=0){
 	thrown = false;
 }
-
 vsp = (!(onGround && vsp>0) * vsp); //<<if on ground set vsp to 0
 vsp += (!grounded(id) * grv) + (-key_space * Jump* grounded(id) * (vsp >= 0));
 
