@@ -29,6 +29,9 @@ if(onGround && thrown && vsp>=0){
 	thrown = false;
 }
 vsp = (!(onGround && vsp>0) * vsp); //<<if on ground set vsp to 0
+if((key_space && grounded(id) && (vsp >= 0))){
+	audio_play_sound(player_jump,0,0)
+}
 vsp += (!grounded(id) * grv) + (-key_space * Jump* grounded(id) * (vsp >= 0));
 
 //Xspeed
